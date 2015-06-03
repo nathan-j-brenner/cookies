@@ -8,15 +8,21 @@ block content
 	.log_in
 		h3  Log in
 		form
-			| Name:
-			input(type="text", name='name', id="username" required)
+			input(type="text", name='name', id="username" value="username" required)
 			br
-			| Password:
-			input(type="text", name='password', id="password" required)
+			input(type="text", name='password', id="password" value="password" required)
 			br
-			input(type='submit', value='Submit')
+			input(type='submit', value="Let's Go")
 	.register
 		h3 register
+		form
+			input(type="text", name='new_name', id="new_username" value="username" required)
+			br
+			input(type="text", name='new_password', id="new_password" value="password" required)
+			br
+			input(type="text", name='new_password_again', id="new_password_again" value="password again" required)
+			br
+			input(type='submit', value='Nice To Meet You')
 
 
 

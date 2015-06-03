@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to my #{title}
+	header
+		h1= title
+		p Welcome to my #{title}
+		h2 You aren't logged in! Would you like to be?
+	.log_in
+		h3  Log in
+		form
+			| Name:
+			input(type="text", name='name', id="username" required)
+			br
+			| Password:
+			input(type="text", name='password', id="password" required)
+			br
+			input(type='submit', value='Submit')
+	.register
+		h3 register
+
+
+

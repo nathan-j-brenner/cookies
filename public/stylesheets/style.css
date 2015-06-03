@@ -1,10 +1,12 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #C0DEED;
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 header, div{
 	border: 1px solid black;
 	text-align: center;
+	background-color: #fff;
 }
 
 div{
@@ -23,6 +25,6 @@ a {
 
 @media (max-width: 500px){
 	div{
-		display: none;
+		display: block;
 	}
 }
